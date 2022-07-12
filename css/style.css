@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+.texts, .one, .three, .six, .eight {
+  font: 3rem "Oswald", sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+body {
+  background-color: #139;
+}
+
+.one, .three, .six, .eight {
+  height: 50vh;
+}
+
+.images, .image3, .image2, .image1 {
+  background-size: cover;
+  padding: 0;
+  width: 100%;
+  display: flex;
+}
+
+
+/*# sourceMappingURL=style.css.map */

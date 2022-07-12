@@ -1,0 +1,39 @@
+@import "./partials/typography.scss", "./partials/images.scss";
+
+.texts{   
+    font: $title;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    background-color: #139;
+}
+
+.one , .three, .six, .eight{
+    height: 50vh;
+    @extend .texts;
+}
+
+
+
+.images{
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    
+}
+
+.image1{
+    @extend .images;
+}
+.image2{
+    @extend .images;
+    
+}
+.image3{
+    @extend .images;
+    
+}
